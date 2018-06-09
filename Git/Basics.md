@@ -38,6 +38,7 @@
 	git log -p -2 -> Shows the difference of the last two checkins
 	git log --since=2.weeks -> shows logs from last 2 weeks
 	git log --since="2 years" -> shows log since last 2 years
+	git log --oneline --decorate -> Fancy one liner
 
 13. Unstage
     git reset HEAD - unstaged everything staged
