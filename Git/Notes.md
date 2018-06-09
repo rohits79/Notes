@@ -58,3 +58,9 @@
     git tag //lists tags
 	git tag -a v1.2 -m "comment"
 	
+	Tag with hash
+	git log --pretty=oneline //lists all version and their hashes
+	git tag -a v1.2 9fceb02 
+	
+	Push tag to server
+	git push origin <Tagname>
