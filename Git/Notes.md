@@ -1,4 +1,4 @@
-1. Git has three stages - *Modified* -> *Staged* (ready to be checked in) -> *Committed* (Checked In)
+1. Git has three stages - *Modified*  -> *Staged* (ready to be checked in) -> *Committed* (Checked In)
 
 2. List current git config
    git config --list
@@ -39,3 +39,22 @@
 	git log --since=2.weeks -> shows logs from last 2 weeks
 	git log --since="2 years" -> shows log since last 2 years
 
+13. Unstage
+    git reset HEAD - unstaged everything staged
+	git reset <fileName> - unstages only the file
+	
+14. Discard local chanes and revert back
+    git checkout -- fileName
+	
+15. Add remote repository
+    git remote add shortName https://URL/location
+	
+16. Use "git remote -v" to list remote repository
+
+17. Push changes to server
+    git push origin master
+	
+18. Tag
+    git tag //lists tags
+	git tag -a v1.2 -m "comment"
+	
