@@ -63,4 +63,4 @@
 	git tag -a v1.2 9fceb02 
 	
 	Push tag to server
-	git push origin <Tagname>
+	git push origin <TagName>
