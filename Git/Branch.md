@@ -13,3 +13,6 @@ Branching
 - Merge
   git checkout master (the branch you want to merge to)
   git merge branchName (the branch you want to merge from)
+  
+- Delete a branch
+  git branch -d branchName
