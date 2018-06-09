@@ -7,6 +7,9 @@ Branching
 - To create new branch
   git branch branchName
   
+- See which branch you are on
+  git branch
+  
 - Switch Branch
   git checkout BranchName 
   
