@@ -19,3 +19,8 @@ Branching
   
 - Delete a branch
   git branch -d branchName
+  
+- remote/origin - is the branch for example on the server
+
+- difference between git pull and git fetch is
+  git pull == git fetch + git merge
