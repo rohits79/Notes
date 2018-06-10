@@ -1,6 +1,6 @@
 Branching
 
-- Origin is the default branch created when we run git init
+- Master is the default branch created when we run git init
 
 - HEAD is the pointer that points to the current branch
 

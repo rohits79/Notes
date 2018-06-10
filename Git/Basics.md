@@ -53,6 +53,7 @@
 16. Use "git remote -v" to list remote repository
 
 17. Push changes to server
+    git push repoShortName branchName
     git push origin master
 	
 18. Tag
