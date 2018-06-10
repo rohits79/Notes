@@ -24,3 +24,13 @@ Branching
 
 - difference between git pull and git fetch is
   git pull == git fetch + git merge
+  
+- create remote tracking branches 
+  git checkout --track origin/branch
+  Or
+  git checkout -b sf origin/serverfix -> create tracking branch sf
+  
+- deleting remote branches
+  git push origin --delete branchName
+  
+ - Causing Conflict
