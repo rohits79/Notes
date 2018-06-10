@@ -32,5 +32,4 @@ Branching
   
 - deleting remote branches
   git push origin --delete branchName
-  
- - Causing Conflict
+ 
