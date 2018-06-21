@@ -1,1 +1,12 @@
-JS Notes
+const > let > var
+const cannot re-assign, but values inside variable could be changed, example array
+
+
+Below will always print 3, as var is hoisted and alert(i) will always print 3
+In the first run compilerwill increment "i" all the way to 3 (for loop), and then on click event we endup printing 3
+<script>
+    const items = document.querySelectorAll('li');
+    for(var i = 0; i< 4; i++) {
+    items[i].addEventListener('click', () => { alert(i); });
+    }
+</script>
