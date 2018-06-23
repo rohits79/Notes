@@ -84,7 +84,7 @@
 //Object.assign(obj1, obj2, obj3, obj4 etc) - updates series of object from left to right
 // preference is given to the outer most object
 // const obj1 = { name : "Rohit"};
-// const obj2 = {name : "Rohini"};
+// const obj2 = {name : "7Rohini"};
 // const obj3 = {name : "Rohan"};
 // Object.assign(obj1, obj2, obj3);
 // console.log(obj1);
@@ -100,10 +100,23 @@
 //Third - Object.assign does not support deep copying, it copies reference in case of an object
 
 //A better way to Object.assign is to use Object spread operator
-const obj = {
-    name: "Rohit",
-    height: 175
-};
-console.log({...obj}); // make sure object spread is enclosed between curly braces
-//override height as 180 keeping other same
-console.log({...obj, height: 180});
+// const obj = {
+//     name: "Rohit",
+//     height: 175
+// };
+// console.log({...obj}); // make sure object spread is enclosed between curly braces
+// //override height as 180 keeping other same
+// console.log({...obj, height: 180});
+
+
+//Map aka Dictionary, can take different type of keys
+//use set to add
+// //use get to get
+// let myMap = new Map();
+// myMap.set(1, 1);
+// myMap.set("Rohit", "Rohit");
+// console.log(myMap.get(1));
+// console.log(myMap.get("Rohit"));
+// //use has to find if a key exists in map
+// console.log(myMap.has(1));
+// console.log(myMap.has(5));
