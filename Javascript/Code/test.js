@@ -153,3 +153,9 @@
 // const { photographer } = landscape;
 // photographer
 // // Nathan
+
+// //or with spread operator
+// const {
+//     photographer,
+//     ...additional
+// } = landscape;
