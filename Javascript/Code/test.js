@@ -139,3 +139,17 @@
 
 
 //Set is like a hashset in .net
+
+//Arrow functions are declared like so
+//const capitalize = name => {
+// return name[0].toUpperCase() + name.slice(1);
+// };
+
+
+// //destructure object like so
+// const landscape = {
+//     photographer: 'Nathan',
+// };
+// const { photographer } = landscape;
+// photographer
+// // Nathan
