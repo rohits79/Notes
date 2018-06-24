@@ -120,3 +120,22 @@
 // //use has to find if a key exists in map
 // console.log(myMap.has(1));
 // console.log(myMap.has(5));
+
+// use destructuring to pull out key value pair from a Map
+// const map = new Map().set('name', 'rohit').set('age', 39);
+// for(var [key, value] of map)
+// {
+//     console.log(key + " "+ value);
+// }
+
+
+// Like how we used spread operator above [...obj, height: 180], we can use spread operator to expand Map too
+// let filters = new Map()
+//     .set('color', 'black');
+// let filters2 = new Map()
+//     .set('color', 'brown');
+// let update = new Map([...filters, ...filters2]);
+// update.get('color'); // brown
+
+
+//Set is like a hashset in .net
