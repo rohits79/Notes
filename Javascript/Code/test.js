@@ -159,3 +159,22 @@
 //     photographer,
 //     ...additional
 // } = landscape;
+
+//Destructure array
+//location: [32.7122222, -103.1405556]
+// const [latitude, longitude] = location
+// latitude
+// // 32.7122222
+// longitude
+// // -103.1405556
+
+
+//This function deletes location from the input parameter and combine with city and state
+// function setRegion({ location, ...details }) {
+//     const { city, state } = determineCityAndState(location);
+//     return {
+//         city,
+//         state: state.abbreviation,
+//         ...details,
+//     };
+// }
